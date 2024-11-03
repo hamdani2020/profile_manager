@@ -20,17 +20,21 @@ This script checks and manages a user's profile information when they log into t
 
 ## Usage
 
-1. **Download the Script**: Save the script as `login_script.py`.
+1. **Download the Script**: Save the script as `main.py` and `login.py`.
 2. **Set the Script to Run on Login**: You can set this script to run automatically upon login by adding it to your shell’s startup configuration:
    - **Bash**: Add the following line to `~/.bashrc` or `~/.bash_profile`:
      ```bash
-     python3 /path/to/login_script.py
+     python3 /path/to/main.py
      ```
    - **Zsh**: Add the following line to `~/.zshrc`:
      ```zsh
-     python3 /path/to/login_script.py
+     python3 /path/to/main.py
      ```
 3. **Run Manually (Optional)**: You can also run the script manually by navigating to the script's directory and executing:
+    - Make the file executate
+    ```
+    chmod +x main.py
+    ```
    ```bash
-   python3 login_script.py
+   python3 main.py
 
