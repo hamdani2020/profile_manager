@@ -31,10 +31,11 @@ This script checks and manages a user's profile information when they log into t
      python3 /path/to/main.py
      ```
 3. **Run Manually (Optional)**: You can also run the script manually by navigating to the script's directory and executing:
-    - Make the file executate
+    - Make the file executable
     ```
     chmod +x main.py
     ```
+    - Run the script
    ```bash
    python3 main.py
 
