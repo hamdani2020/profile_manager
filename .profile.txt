@@ -1,3 +1,3 @@
-Name: gandi
-Phone: 2343453
-Email: test@gmail.com
+Name: LusiTech
+Phone: 203432423
+Email: tech@lusitech.tech
